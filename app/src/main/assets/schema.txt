@@ -1,0 +1,24 @@
+action                  跳转                           参数                    示例
+
+home                    首页                            无                     无
+lotterySSQ              双色球                          无
+lotteryDLT              大乐透                          无
+lotteryRXJ              任选九                          无
+lotterySFC              胜负彩                          无
+lotteryJQC              进球彩                          无
+lotteryBQC              半全场                          无
+lotterySD115            山东11选5                       无
+lotteryFC3D             福彩3D                          无
+lotteryPL3              排列3                           无
+lotteryPL5              排列5                           无
+lotteryQLC              七乐彩                          无
+lotteryQXC              七星彩                          无
+lotteryJXK3             江西快3                         无
+lotteryJLK3             吉林快3                         无
+lotteryGXK3             广西快3                         无
+lotteryGD115            广东11选5                       无
+lotteryJCZQ             竞彩足球                        无
+lotteryJCLQ             竞彩篮球                        无
+lotteryBJDC             北京单场                        无
+openPrize               数字彩开奖                  lotteryType
+loadHtml5               加载一个h5页面                url ， title

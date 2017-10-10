@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_left_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="追"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_minus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="—"
+        android:gravity="center"
+        android:background="@drawable/bg_gray_stroke_gray_solid_0_corner"
+        />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_gray_stroke_white_solid_0_corner"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:minWidth="40dp"
+        android:text="1"
+        android:textColor="#333333"
+        android:inputType="number"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginRight="-1dp"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="+"
+        android:gravity="center"
+        android:background="@drawable/bg_gray_stroke_gray_solid_0_corner"
+        />
+
+    <TextView
+        android:id="@+id/tv_right_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="期"
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>

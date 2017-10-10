@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/ll_zhui_hao_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="42dp"
+        android:gravity="center_vertical"
+        android:background="#fff"
+        >
+        <ImageView
+            android:id="@+id/iv_senior_check"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/bg_check_or_uncheck"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_phase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017067期"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <com.taovo.rjp.packagedemo.listview.SeniorInputView
+            android:id="@+id/senior_input_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+        </com.taovo.rjp.packagedemo.listview.SeniorInputView>
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="2元"
+            android:textColor="#eb1c42"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
